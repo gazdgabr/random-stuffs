@@ -50,6 +50,7 @@ def get_articles_umich():
 		fp = open(CACHE_FNAME,'w')
 		fp.write(json.dumps(CACHE_DICTION))
 		fp.close()
+	print(article_html_tups) #Added this on the branch
 	return article_html_tups
 
 # Grab the data
